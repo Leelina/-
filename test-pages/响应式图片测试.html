@@ -2,10 +2,38 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0"> 
 <title>响应式图片测试</title>
+<style>
+p{
+	color:#F66;
+	font:24px "黑体";
+	}
+div{
+	color:#03F;
+	}
+img{
+	max-width:100%;
+	}	
+</style>
 </head>
 <body>
-
-
+	<p>响应式图片测试</p>
+	<div>
+    	45454545
+    	<img sizes="98px;" srcset="images/book2.png 1920w,images/book3.png 1600w,images/book3x.png 1240w" src="images/book1.png">
+    </div>
+    <div>
+    	12135454
+      <picture>
+      <!-- 16:9 crop -->
+      <source
+          media="(min-width: 36em)"
+          srcset="images/book2.png  1920w,
+                  images/book3.png  1600w,
+                  images/book3x.png   1240w" />
+      <img src="images/book3.png" />
+      </picture>
+    </div>
 </body>
 </html>
