@@ -1,0 +1,47 @@
+<!--<html>
+<head>
+<meta charset="utf-8" content="">
+<title>动态适时改变选项按钮的颜色</title>
+<script language="javascript">
+<!--
+function changeColor(){
+for(i=0;i<3;i++){
+if (form1.n[i].checked){
+form1.n[i].style.background = "red";
+}else{
+form1.n[i].style.background = "";
+}
+}
+}
+</script>
+</head>
+<body>
+<form name="form1">
+<input name="n" type="radio" onClick="changeColor()"  style="background:#0CC;width:100px;">烈火工具
+<input name="n" type="radio" onClick="changeColor()" style="background:#0CC;">烈火学院
+<input name="n" type="radio" onClick="changeColor()" style="background:#0CC;">烈火下载
+</form>
+</body>
+</html>
+-->
+
+
+<html>
+<head>
+<script type="text/javascript">
+function a(yc)
+{
+document.getElementById('mycolor').style.background=yc;
+
+}
+</script>
+</head><body >
+<table>
+<tr>
+ <td  width=100 height=2 onmouseover=a('red') bgcolor="red"></td>
+<td width=100 height=2 onmouseover=a('blue') bgcolor="blue"></td>
+<td width=100 height=2 onmouseover=a('black') bgcolor="black"></td>
+<tr>
+</table>
+<input type="txt" id="mycolor" value="这里是颜色框" /></body>
+</html>
