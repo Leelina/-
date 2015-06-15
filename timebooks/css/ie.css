@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ib_book{
+	-moz-transform:rotate(30deg); -webkit-transform:rotate(30deg); transform:rotate(30deg);
+	filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.866,M12=-0.5,M21=0.5,M22=0.866,SizingMethod='auto expand');
+	text-align:left;
+	margin:-182px 0px 0px 260px;
+	width:98px;
+	height:130px;
+	}
+.ib_book1{
+	-moz-transform:rotate(30deg); -webkit-transform:rotate(30deg); transform:rotate(30deg);
+	filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.866,M12=-0.5,M21=0.5,M22=0.866,SizingMethod='auto expand');
+	text-align:left;
+	margin:-182px 0px 0px 40px;
+	width:98px;
+	height:130px;
+	}
+.ib_book2{
+	-moz-transform:rotate(30deg); -webkit-transform:rotate(30deg); transform:rotate(30deg);
+	filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.866,M12=-0.5,M21=0.5,M22=0.866,SizingMethod='auto expand');
+	text-align:left;
+	margin:-182px 0px 0px 40px;
+	width:98px;
+	height:130px;
+	}
+.ib_book3{
+	-moz-transform:rotate(30deg); -webkit-transform:rotate(30deg); transform:rotate(30deg);
+	filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.866,M12=-0.5,M21=0.5,M22=0.866,SizingMethod='auto expand');
+	text-align:left;
+	margin:-182px 0px 0px 38px;
+	width:98px;
+	height:130px;
+	}

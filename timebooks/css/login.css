@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px;padding:0px;font:12px/1 Arial,Helvetical,snas-serif;}
+h3,p,input,ul,img{margin:0px;padding:0px;}
+ul{list-style-type:none;}
+input{outline:none;}
+/*登录界面*/
+.signuppic{
+	background:url(../images/roubg1.png);
+	min-width:1200px;
+	}
+.logscreen{
+	margin-top:200px;
+	position:absolute;
+	left:50%;
+	margin-left:-550px;
+	width:1100px;
+	text-align:center;
+	}
+.lsright{
+	color:#363636;
+	margin:-420px 0px 0px 600px;
+	font:15px/1 "微软雅黑";
+	text-align:left;
+	width:420px;
+	}
+.lsright div{
+	margin-bottom:20px;
+	}	
+.loglogo{
+	position:absolute;
+	left:97px;top:45px;
+	background: url(../images/logologin.png) no-repeat;
+	width:130px;
+	height:34px;
+	display:inline-block;
+	cursor:pointer;
+	}
+.userp{
+	font-size:20px;
+	margin-bottom:40px;
+	margin-left:120px;
+	}
+.logname{
+	width:49px;
+	margin-right:10px;
+	display:inline-block;
+	text-align:right;
+	}	
+.applifob{
+	width:200px;
+	border:1px solid #E4E4E4;
+	color:#000;
+	height:20px;
+	line-height:20px;
+	padding:5px 0px 5px 10px;
+	font:14px/1 "黑体";
+	}
+.applifobr{
+	width:60px;
+	margin-right:10px;
+	margin-bottom:10px;
+	}
+.erroalert{
+	color:#f30909;
+	background:url(../images/remind.png) no-repeat 15px center;
+	padding-left:30px;
+	font:12px/1 "黑体";
+	text-align:left;
+	width:100px;
+	/*display:none;*/
+	}
+.applyzm{
+	width:124px;
+	height:35px;
+	display:inline-block;
+	vertical-align:middle;
+	}
+.applicheck{
+	background:transparent;
+	vertical-align:middle;
+	}
+.logauto{
+	font:12px/1 "宋体";
+	margin-left:5px;
+	}
+.loglost{
+	font:12px/1 "宋体";
+	text-decoration:underline;
+	cursor:pointer;
+	margin-left:115px;
+	color:#1CB177;
+	}
+.logbtnh{
+	margin-left:195px;
+	text-decoration:none;
+	}
+.logbut{
+	color:#FFF;
+	width:80px;
+	height:30px;
+	cursor:pointer;
+	background:#1cb177;
+	border:solid 0px transparent;
+	margin-top:10px;
+	border-radius:2px;
+	font:15px/1 "微软雅黑";
+	}
+.lognonum{
+	padding-left:155px;
+	font:12px/1 "宋体";
+	}
+.logtcoh{
+	color:#FF8D49;
+	text-decoration:none;
+	cursor:pointer;
+	}
+.logbottom{
+	font-weight:bold;
+	margin-top:15%;
+	text-align:center;
+	}
+/*注册*/
+.signup{
+	position:relative;
+	left:50%;
+	margin-left:-500px;
+	text-align:center;
+	width:1000px;
+	background:#FFF;
+	height:700px;
+	}
+.sutitle{
+	float:left;
+	margin-top:-50px;
+	background: url(../images/logologin.png) no-repeat;
+	width:130px;
+	height:34px;
+	display:inline-block;
+	cursor:pointer;
+	}
+.sucon{
+	margin:100px auto 0px;
+	color:#252525;
+	font:13px/1 "宋体";
+	}
+.supo{
+	font:17px/1 "微软雅黑";
+	padding-top:100px;
+	color:#696969;
+	}
+.supt{
+	margin:20px 0px 20px 230px;
+	font-size:12px;
+	color:#7d7d7d;
+	}
+.sulogin{
+	color:#1cb177;
+	}
+.signupcon{
+	margin-left:300px;
+	text-align:left;
+	}
+.suinput{
+	width:280px;
+	border:1px solid #e7e7e7;
+	color:#8c8c8c;
+	height:25px;
+	line-height:25px;
+	margin:0px 0px 20px 10px;
+	padding-left:10px;
+	font:12px/1 "宋体";
+	}
+.remind{
+	color:#f30909;
+	background:url(../images/remind.png) no-repeat 0px center;
+	font:12px/1 "黑体";
+	padding-left:15px;
+	text-align:left;
+	/*display:none;*/
+	margin-left:10px;
+	}
+.suact{margin-left:-15px;font:12px/1 "微软雅黑";}
+.classfic{color:#A88888;background:#EDC8C8;padding:3px 10px;}
+.classfics{color:#B28C60;background:#F2D4B0;padding:3px 10px;}
+.classficf{color:#90A177;background:#ECF7DC;padding:3px 10px;}
+.classfici{color:#8497A2;background:#D6E7F1;padding:3px 10px;}
+.suaction{margin-right:8px;}
+.suadd{margin:-5px 10px;}
+.suaddmore{position:absolute;text-decoration:underline;cursor:default;color:#3c3c3c;font-size:12px;margin-left:15px;}
+.subut{width:220px;height:30px;color:#FFF;background:#ff6c00;border:solid 0px transparent;margin:50px 5px 0px 0px;font:14px/1 "黑体";cursor:pointer;}
+.policy{text-decoration:underline;color:#FF6C00;cursor:default;font-weight:bold;}
+.supth{margin-top:30px;margin-left:30px;font-size:12px;color:#7d7d7d;}
+.sufooter{
+	position:relative;
+	text-align:center;
+	margin-top:3%;
+	color:#403C3D;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	}
+/*找回密码*/
+.findpass{padding-top:150px;width:500px;font:14px/1 "黑体";}
+.findlist{font:14px/1 "微软雅黑";border-bottom:solid 2px #1CA873;padding-bottom:10px;width:350px;margin:0px auto;}
+.findlist .fdlistcor{color:#1ca873;}
+.fdlist{padding:0px 30px;position:relative;color:#4c4c4c;text-decoration:none;}
+.findpasbar{border:solid 1px #E5E5E5;width:250px;height:25px;line-height:25px;color:#b8b8b8;margin:80px auto 50px;padding-left:10px;font-size:12px;}
+.sigupmail{color:#7c7c7c;/*font-weight:bold;*/margin-right:10px;font-size:13px;}
+.fdpassbtn{color:#FFF;background:#FF6C00;padding:7px 110px;margin-left:30px;cursor:pointer;text-decoration:none;}
+.fdpasemailp{color:#7d7d7d;margin:40px 0px 20px 40px;font:12px/1 "宋体";}
+.remindpass{color:#f30909;background:url(../images/remind.png) no-repeat 15px center;padding-left:30px;font:12px/1 "黑体";margin-right:-140px;text-align:left;width:100px;display:inline-block;}
+.arrowfd{width:0px;height:0px;border:6px solid transparent;border-bottom:6px solid #1CA873;position:absolute;top:15px;margin-left:-35px;}
+.arrowfd1{width:0px;height:0px;border:6px solid transparent;border-bottom:6px solid #FFF;position:absolute;top:17px;margin-left:-35px;}
+.arrowfp{width:0px;height:0px;border:6px solid transparent;border-bottom:6px solid #1CA873;position:absolute;top:15px;margin-left:-45px;}
+.arrowfp1{width:0px;height:0px;border:6px solid transparent;border-bottom:6px solid #FFF;position:absolute;top:17px;margin-left:-45px;}
+/*手机号找回*/
+.findpasbarc{border:solid 1px #E5E5E5;width:90px;height:25px;line-height:25px;color:#C1C1C1;margin:0px auto 60px;padding-left:10px;}
+.captcha{color:#fff;background:#1CA873;padding:5px 5px;font:12px/1 "黑体";margin-left:90px;cursor:pointer;}
+.paswordbar{margin:0px 0px 50px 0px;}
+
+/*注册成功*/
+.signsucs{font:22px/1 "黑体";color:#1cb177;background:url(../images/hook.png) no-repeat 0px center;padding:13px 0px 13px 70px;}
+.signsucp{color:#838383;font:bold 14px/1 "黑体";margin:70px auto 30px;}
+.username{COLOR:#FF6C00;margin:0px 5px;}
+.signsucsp{color:#949494;font:13px/1 "黑体";margin-bottom:80px;}
+.entermail{color:#fff;background:#FF6C00;padding:7px 130px;font:18px/1 "黑体";cursor:pointer;}
+
+/*邮件发送成功*/
+.sendmail_div{
+	position:absolute;
+	width:100%;
+	}
+.sendmail_img{
+	margin:50px 0px 0px 0px;
+	
+	}
+.fdpassbtn1{
+	margin-top:30px;
+	color:#FFF;
+	background:#FF6C00;
+	padding:7px 110px;
+	
+	cursor:pointer;
+	text-decoration:none;
+	}
+.sendmail_txt{
+	text-align:center;
+	margin-top:30px;
+	}
+
+
+
+
