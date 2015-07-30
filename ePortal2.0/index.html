@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/slide.js" type="text/javascript"></script>
+</head>
+<body class="indexbg">
+<div class="indexcontainer">
+  <div style="height:40px;margin:-40px 0 0;">
+    <div class="topnav"></div>
+    <div class="topnavcovr">
+      <a class="indexlogo"></a>
+      <div class="right">
+        <span>
+          欢迎进入企业门户管理后台!
+          <span class="adminhd"></span>当前账户：
+          <span>韩美AppBook</span>&nbsp;&nbsp;后台管理员
+        </span>
+        <a class="btn_exit">退出</a>
+      </div>
+    </div>
+  </div><!--上面部分结束下面整体开始-->
+  <div style="height:100%;position:relative;">
+    <div class="leftnav"></div>
+    <div class="leftnavcovr">
+      	<div>
+          <input id="label-1" name="lida" type="radio" checked/>
+          <label for="label-1" id="item1" onclick="javascrtpt:window.location.href='index.html'">
+            <span class="iconbox "><i class="icon_lfbar"></i></span>
+            首页
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+        </div>
+      	<div>
+          <input id="label-2" name="lida" type="radio" />
+          <label for="label-2" id="item2">
+            <span class="iconbox"><i class="icon_lfbar icon_source"></i></span>
+            资源管理
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+          <ul class="seclist">
+            <li onclick="javascrtpt:window.location.href='srcemana_list.html'">资源列表</li>
+            <li onclick="javascrtpt:window.location.href='srcemana_upload.html'">上传资源</li>
+          </ul>
+        </div>
+      	<div>
+          <input id="label-3" name="lida" type="radio" />
+          <label for="label-3" id="item3">
+            <span class="iconbox"><i class="icon_lfbar icon_clum"></i></span>
+            栏目管理
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+          <ul class="seclist">
+            <li>栏目列表</li>
+            <li>添加栏目</li>
+          </ul>
+        </div>
+      	<div>
+          <input id="label-4" name="lida" type="radio" />
+          <label for="label-4" id="item4">
+            <span class="iconbox"><i class="icon_lfbar icon_admin"></i></span>
+            管理员信息
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+        </div>
+      	<div>
+          <input id="label-5" name="lida" type="radio" />
+          <label for="label-5" id="item5">
+            <span class="iconbox"><i class="icon_lfbar icon_admanag"></i></span>
+            用户管理
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+        </div>
+      	<div>
+          <input id="label-6" name="lida" type="radio" />
+          <label for="label-6" id="item6">
+            <span class="iconbox"><i class="icon_lfbar icon_stacanly"></i></span>
+            统计分析
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+          <ul class="seclist">
+            <li>资源统计</li>
+            <li>资源内容统计</li>
+            <li>意见反馈统计</li>
+          </ul>
+        </div>
+    </div><!--左侧结束右侧开始-->
+    <div class="maincon">
+      <div class="pvbox">
+      	<p class="pvboxp">
+          <a class="left">&lt;&nbsp;上一周</a>
+          周访问量
+          <a class="right">下一周&nbsp;&gt;</a>
+        </p>
+        <div>访问量图表</div>
+      </div><!--访问量图表结束排行开始-->
+      <div class="pvtop">
+      	<p class="pvtoptxt">书籍阅读量排行前10</p>
+        <table class="pvtoptab">
+          <tr>
+          	<td>
+              <span class="pvnum pvnum_one">1</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          	<td>
+              <span class="pvnum pvnum_two">2</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+          	<td>
+              <span class="pvnum pvnum_three">3</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          	<td>
+              <span class="pvnum">4</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+          	<td>
+              <span class="pvnum">5</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          	<td>
+              <span class="pvnum">6</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+          	<td>
+              <span class="pvnum">7</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          	<td>
+              <span class="pvnum">8</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+          	<td>
+              <span class="pvnum">9</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          	<td>
+              <span class="pvnum">10</span>
+              <img src="images/bookmin.png" class="thumbwh">
+              <ul class="pvul">
+              	<li>书籍名称</li>
+              	<li>阅读量：<span class="pvtopcolr">200</span></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div><!--访问量排行结束-->
+    </div><!--右侧结束-->
+    <div class="clear"></div>
+  </div><!--下面部分结束-->
+</div>
+</body>
+</html>

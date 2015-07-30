@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>资源管理—编辑</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/slide.js" type="text/javascript"></script>
+</head>
+<body class="indexbg">
+<div class="indexcontainer">
+  <div style="height:40px;margin:-40px 0 0;">
+    <div class="topnav"></div>
+    <div class="topnavcovr">
+      <a class="indexlogo"></a>
+      <div class="right">
+        <span>
+          欢迎进入企业门户管理后台!
+          <span class="adminhd"></span>当前账户：
+          <span>韩美AppBook</span>&nbsp;&nbsp;后台管理员
+        </span>
+        <a class="btn_exit">退出</a>
+      </div>
+    </div>
+  </div><!--上面部分结束下面整体开始-->
+  <div style="height:100%;position:relative;">
+    <div class="leftnav"></div>
+    <div class="leftnavcovr">
+      	<div>
+          <input id="label-1" name="lida" type="radio" />
+          <label for="label-1" id="item1" onclick="javascrtpt:window.location.href='index.html'">
+            <span class="iconbox "><i class="icon_lfbar"></i></span>
+            首页
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+        </div>
+      	<div>
+          <input id="label-2" name="lida" type="radio" checked/>
+          <label for="label-2" id="item2">
+            <span class="iconbox"><i class="icon_lfbar icon_source"></i></span>
+            资源管理
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+          <ul class="seclist">
+            <li onclick="javascrtpt:window.location.href='srcemana_list.html'">资源列表</li>
+            <li onclick="javascrtpt:window.location.href='srcemana_upload.html'">上传资源</li>
+          </ul>
+        </div>
+      	<div>
+          <input id="label-3" name="lida" type="radio" />
+          <label for="label-3" id="item3">
+            <span class="iconbox"><i class="icon_lfbar icon_clum"></i></span>
+            栏目管理
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+          <ul class="seclist">
+            <li>栏目列表</li>
+            <li>添加栏目</li>
+          </ul>
+        </div>
+      	<div>
+          <input id="label-4" name="lida" type="radio" />
+          <label for="label-4" id="item4">
+            <span class="iconbox"><i class="icon_lfbar icon_admin"></i></span>
+            管理员信息
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+        </div>
+      	<div>
+          <input id="label-5" name="lida" type="radio" />
+          <label for="label-5" id="item5">
+            <span class="iconbox"><i class="icon_lfbar icon_admanag"></i></span>
+            用户管理
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+        </div>
+      	<div>
+          <input id="label-6" name="lida" type="radio" />
+          <label for="label-6" id="item6">
+            <span class="iconbox"><i class="icon_lfbar icon_stacanly"></i></span>
+            统计分析
+            <i class="icon_lfbar icon_arowrt"></i>
+          </label>
+          <ul class="seclist">
+            <li>资源统计</li>
+            <li>资源内容统计</li>
+            <li>意见反馈统计</li>
+          </ul>
+        </div>
+    </div><!--左侧结束右侧开始-->
+    <div class="maincon">
+      <div class="editcon loadcon">
+      	<div class="platfrm">
+          <span class="editcate">书籍级别：</span>
+          	<input type="checkbox">
+            <span>公开</span>
+          	<input type="checkbox">
+            <span>非公开</span>
+            <span class="editcate">是否显示：</span>
+          	<input type="checkbox">
+            <span>是</span>
+        </div><!--书籍级别结束资源分类开始-->
+      	<div class="platfrm">
+          <span class="editcate">上传平台：</span>
+          	<input type="checkbox">
+            <span>全部</span>
+          	<input type="checkbox">
+            <span>Andriod</span>
+          	<input type="checkbox">
+            <span>ios</span>
+          	<input type="checkbox">
+            <span>web</span>
+        </div><!--上传平台结束书籍级别开始-->
+      	<div style="margin:40px 0px;">
+          <span class="editcate">文件：</span>
+          <a class="btn_look">浏览</a>
+          <span class="loadremark">注：上传格式包括zip、MP4、pdf，zip包内容包括图书和封面内部分内容。</span>
+        </div><!--文件结束上传进度开始-->
+        <div>
+          <span class="editcate">资源分类：</span>
+          <table class="scloadtab">
+          	<thead>
+              <td width="5%">上传文件</td>
+              <td width="5%">分类</td>
+              <td width="5%">上传状态</td>
+              <td width="5%">操作</td>
+            </thead>
+          	<tr>
+              <td>
+              	<input type="checkbox" />
+                <span>哼哼猪.zip</span>
+              </td>
+              <td>
+              	<select>
+                	<option>产品介绍</option>
+                    <option>产品介绍1</option>
+                    <option>产品介绍2</option>
+                </select>
+              </td>
+              <td>
+              	<a class="icon_fnish"></a>
+              </td>
+              <td>
+              	<a class="btn_del">删除</a>
+              </td>
+            </tr>
+          	<tr>
+              <td>
+              	<input type="checkbox" />
+                <span>哼哼猪.zip</span>
+              </td>
+              <td>
+              	<select>
+                	<option>产品介绍</option>
+                    <option>产品介绍1</option>
+                    <option>产品介绍2</option>
+                </select>
+              </td>
+              <td>
+              	<a class="icon_fnish icon_erro"></a>
+              </td>
+              <td>
+              	<a class="btn_del">删除</a>
+              </td>
+            </tr>
+          	<tr>
+              <td>
+              	<input type="checkbox" />
+                <span>哼哼猪.zip</span>
+              </td>
+              <td>
+              	<select>
+                	<option>产品介绍</option>
+                    <option>产品介绍1</option>
+                    <option>产品介绍2</option>
+                </select>
+              </td>
+              <td>
+              	<a class="icon_fnish"></a>
+              </td>
+              <td>
+              	<a class="btn_del">删除</a>
+              </td>
+            </tr>
+            <tr class="lasrtd">
+              <td>
+              	<input type="checkbox" />
+                <span>全部</span>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div style="margin:30px auto;text-align:center;">
+          <a class="btn_edtsave">批量上传</a>
+          <a class="brn_edtcancl">取消</a>
+        </div>
+      </div>
+    </div><!--右侧结束-->
+    <div class="clear"></div>
+  </div><!--下面部分结束-->
+</div>
+</body>
+</html>
