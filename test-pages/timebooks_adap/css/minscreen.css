@@ -30,13 +30,10 @@ body{
 	margin:0px 10px;
 	}
 .conbku li{
-	margin:10px 10px;
-	}
-.conbku .lastconbk{
-	margin:10px 0px 10px 10px;
+	margin:10px 42px;
 	}
 .conbku .firstconbk{
-	margin:10px 10px 10px 15px;
+	margin:10px 30px;
 	}
 .conbkul li{
 	margin:10px 11px;
@@ -46,6 +43,12 @@ body{
 	}
 .mfoter{
 	min-width:960px;
+	}
+.recombku li{
+	margin-right:20px;
+	}
+.conbkul li{
+	margin:10px 31px;
 	}
 /*购买失败buyfail*/	
 .shopcontainer{
@@ -61,11 +64,8 @@ body{
 	width:710px;
 	}
 .ebookrightnew4{
-	margin-left:10px;
-	padding-right:10px;
-	}
-.ebookrightnew5{
-	margin-left:10px;
+	margin-left:38px;
+	padding-right:38px;
 	}
 /*电子书*/
 .ebook{
@@ -73,6 +73,10 @@ body{
 	}
 .ebookright{
 	width:710px;
+	}
+.ebookrightnew2{
+	margin-left:30px;
+	width:300px;
 	}
 /*电子书详情*/	
 .detailrg{
@@ -109,17 +113,20 @@ body{
 	}	
 .pymethdform input{
 	margin:0px 30px 0px 50px;
-	}	
+	}
+/*账号设置*/		
+.mysetconbox{
+	margin-left:120px;
+	}
+
 /*搜索结果页面*/
 .srchrsulcon{
 	width:710px;
 	}
 .srchconbku li{
-	margin:10px 8px;
+	margin:10px 35px;
 	}
-.srchconbku .lastconbk{margin:10px 0px 10px 9px;}
-.srchconbku .firstconbk{margin:10px 9px 10px 0px;}
-
+.srchconbku .firstconbk{margin:10px 34px 10px;}
 
 /*忘记密码手机找回*/
 .signuppic{
@@ -150,8 +157,38 @@ body{
 	}
 .medbannrlt{
 	display:block;
+	position:relative;
 	}
-
+.ib_thlt{
+	position:absolute;
+	right:20px;
+	top:10px;
+	z-index:99;
+	}
+.ib_book{
+	position:absolute;
+	right:245px;
+	top:70px;
+	margin:0px;
+	}
+.ib_book1{
+	position:absolute;
+	right:65px;
+	top:70px;
+	margin:0px;
+	}
+.banner_title{
+	margin:-240px 0px 0px 20px;
+	}
+.banner_hover{
+	margin:15px 0px 0px 10px;
+	}
+.banner_nei1,.banner_nei2{
+	margin-left:10px;
+	}
+.adaphide{
+	display:none;
+	}
 
 
 

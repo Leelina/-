@@ -399,7 +399,6 @@ ul{list-style-type:none;}
 .banner_hover{
 	/*margin:-222px 0px 0px 30px !important;*/
 	margin:15px 0px 0px 33px; 
-	
 	width:297px; 
 	height:196px; 
 	float:left; 
@@ -1421,7 +1420,7 @@ ul{list-style-type:none;}
 /*账号设置*/
 .sucon{margin:100px auto 0px;text-align:center;font:13px/1 "宋体";}
 .mysetconbox{
-	margin-left:150px;
+	margin-left:230px;
 	text-align:left;
 	}
 .suinput{width:280px;border:1px solid #e7e7e7;color:#949494;height:25px;line-height:25px;margin:0px 0px 20px 10px;padding-left:10px;outline:none;}
@@ -1438,7 +1437,7 @@ ul{list-style-type:none;}
 	text-align:right;
 	}
 .myattent{
-	margin:40px 0px 0px 120px;
+	margin:40px auto 0px;
 	border-top:solid 1px #CBC6BD;
 	width:500px;padding-top:30px;
 	text-align:center;
