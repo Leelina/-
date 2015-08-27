@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册成功</title>
+<link href="css/login.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/minscreen.css" media="screen and (max-width: 1200px)">
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script type="text/javascript">
+var ms = 11;
+function display() {
+var tt = setTimeout("display();", 1000);
+ms -= 1;
+if(ms == 0){
+	clearTimeout(tt);
+	window.location.href = "index.html";
+	}
+document.getElementById("time").innerHTML = ms;
+}
+</script>
+</head>
+<body class="signuppic" onLoad="display()">
+  <div class="signup">
+  	<div>
+      <a class="logosnup" href="index.html"></a>
+      <span class="signuprt">如果您已有账号，请直接<a href="login.html" class="snupsnin">登录</a></span>
+    </div>
+    <p class="supo">用户注册</p>
+    <div class="suconbox">
+    	<p class="signsucs">恭喜您，注册成功!</p>
+        <p class="refreshp"><span class="countdown" id="time"></span>秒钟之后自动进入首页</p>
+    </div>
+  </div>
+  <div class="logbottom">
+      <a href="http://www.baidu.com">关于我们</a>|<a>联系我们</a>|<a>商务合作</a>|<a>交互电子书</a>Copyright&copy;&nbsp;2000-2015&nbsp;Retech&nbsp;Group&nbsp;Co.,Ltd
+  </div>
+</body>
+</html>

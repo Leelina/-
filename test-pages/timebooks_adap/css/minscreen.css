@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+/*首页*/
+body{
+	min-width:960px;
+	}
+.mttopcon{
+	width:960px;
+	}
+.mcontainer{
+	width:960px;
+	}
+.contpmain{
+	float:left;
+	margin-left:20px;
+	}
+.contplog{
+	display:none;
+	}
+.minrecorm{
+	display:none;
+	}	
+.mcirclerr{
+	margin:0px 10px;
+	}
+.mcirclerl{
+	margin:0px 10px;
+	}
+.mcirclert{
+	margin:0px 10px;
+	}
+.conbku li{
+	margin:10px 10px;
+	}
+.conbku .lastconbk{
+	margin:10px 0px 10px 10px;
+	}
+.conbku .firstconbk{
+	margin:10px 10px 10px 15px;
+	}
+.conbkul li{
+	margin:10px 11px;
+	}
+.conbkul .lastconbk{
+	margin:10px 0px 10px 11px;
+	}
+.mfoter{
+	min-width:960px;
+	}
+/*购买失败buyfail*/	
+.shopcontainer{
+	width:960px;
+	} 
+/*客户端*/
+.client{min-width:960px;}
+/*栏目页*/	
+.column{
+	width:960px;
+	}
+.columnright{
+	width:710px;
+	}
+.ebookrightnew4{
+	margin-left:10px;
+	padding-right:10px;
+	}
+.ebookrightnew5{
+	margin-left:10px;
+	}
+/*电子书*/
+.ebook{
+	width:960px;
+	}
+.ebookright{
+	width:710px;
+	}
+/*电子书详情*/	
+.detailrg{
+	width:25%;
+	}
+.sharels{
+	float:left;
+	margin-top:20px;
+	}
+/*列表页*/
+.list{
+	width:960px;
+	}
+.listright{
+	width:710px;
+	}
+
+/*个人中心*我的书架*/
+.mybook{
+	width:960px;
+	}
+.mbrn{
+	margin:20px 0px 20px 0px;
+	width:235px;
+	}
+.mybookright{
+	width:76%;
+	}
+.perctrpage{
+	margin-left:170px;
+	}
+.paynow{
+	margin-top:50px;
+	}	
+.pymethdform input{
+	margin:0px 30px 0px 50px;
+	}	
+/*搜索结果页面*/
+.srchrsulcon{
+	width:710px;
+	}
+.srchconbku li{
+	margin:10px 8px;
+	}
+.srchconbku .lastconbk{margin:10px 0px 10px 9px;}
+.srchconbku .firstconbk{margin:10px 9px 10px 0px;}
+
+
+/*忘记密码手机找回*/
+.signuppic{
+	min-width:960px;
+	}
+/*登录界面*/
+.logscreen{
+	min-width:960px;
+	}
+.lflogcon{
+	margin-left:7%;
+	}		
+.lsright{
+	right:7%;
+	}
+.lsrightcover{
+	right:7%;
+	}
+/*多媒体图书*/
+.eachebook{
+	width:960px;
+	}
+.eachright{
+	width:710px;
+	}
+.medbannr{
+	display:none;
+	}
+.medbannrlt{
+	display:block;
+	}
+
+
+
+
+
+
+	
+	

@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>充值中心</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/minscreen.css" media="screen and (max-width: 1200px)">
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script>
+function MM_over(mmObj) {
+	var mSubObj = mmObj.getElementsByTagName("div")[0];
+	mSubObj.style.display = "block";
+	mSubObj.style.cursor = "pointer";
+}
+function MM_out(mmObj) {
+	var mSubObj = mmObj.getElementsByTagName("div")[0];
+	mSubObj.style.display = "none";
+	
+}
+</script>
+</head>
+<body>
+  <div class="mtop">
+    <div class="mttop">
+      <div class="mttopcon">
+        <p class="mthome">欢迎进入阅读平台!</p>
+        <ul class="mthomer">
+          <li class="tophover"><a href="login.html" style="color:#1cb177;">登录</a></li>
+          <li class="tophover"><a href="signup.html">注册</a></li>
+          <li class="mthocol">|</li>
+          <li style="padding-right:8px;"><img src="images/shujia.png"></li>
+          <li class="tophover"><a href="#">我的书架</a></li>
+          <li style="padding-right:8px;"><img src="images/shopcar.png"></li>
+          <li class="tophover"><a href="#">购物车</a><span class="mthoshop">0</span></li>
+          <li class="tophover"><a href="#">网站助手</a><span class="shape"></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="msearch">
+      <div class="logotitle"></div>
+      <div class="mtopsearch">
+        <input type="text" value="搜索书籍名称或作者姓名" class="msearinp"><a href="searchresult.html"><img src="images/fangda.png" class="mseaimpo"></a><br/>
+        <p class="msearex">热门搜索：<a class="hotsearch">后会无期</a><a class="hotsearch">广告人的自白</a>
+            <a class="hotsearch">小时代</a><a class="hotsearch">科幻世界</a></p>
+      </div>
+    </div>
+    <div class="navgi">
+      <a href="index.html">首页<span class="navshape"></span></a>
+      <a href="ebook.html">电子图书<span class="navshart"></span></a>
+      <a href="inactbook.html">多媒体图书<span class="navshapr"></span></a>
+      <a href="client.html" >客户端<span class="navshar"></span></a>
+    </div>
+  </div>    
+  <div class="mybook">
+    <div class="mybookleft">
+      <div class="face" onmouseover="MM_over(this)" onmouseout="MM_out(this)">
+        <img src="images/faceon.png">
+        <div class="facecover">
+          <p class="facecovrbg"></p>
+          <p class="facecovr">修改头像</p>
+        </div>
+      </div>
+      <p class="mybookname">张丹</p>
+      <div class="percentr">
+        <p>
+          <span class="iconmybook"></span><a href="mybook.html">我的书架</a>
+        </p>
+        <p>
+          <span class="iconmycollct"></span><a href="mycool.html">我的收藏</a>
+        </p>
+        <p class="perctractbg">
+          <span class="iconmychargeon"></span><a href="mycharge.html" class="percentract">充值中心</a>
+        </p>
+        <p>
+          <span class="iconmyset"></span><a href="myset.html">账号设置</a>
+        </p>
+        <p>
+          <span class="iconmymsg"></span><a href="mymsg.html">系统消息</a>
+        </p>
+        <p>
+          <span class="iconmyproblem"></span><a href="myproblem.html">常见问题</a>
+        </p>
+      </div>
+    </div>       
+    <div class="mybookright">
+      <div class="mybookrighttitle1">
+        <a class="titletxt1">充值中心</a>
+        <span style="margin:0px 50px;">账号:&nbsp;&nbsp;<span>test003</span></span>
+        <span>余额:&nbsp;&nbsp;<span>123456</span>时光币</span>
+        <ul class="chargebox">
+          <li><a href="mycharge.html" class="chargeboxat">充值</a></li>
+          <li class="separator">|</li>
+          <li><a href="mycharge_recrd.html">充值记录</a></li>
+          <li class="separator">|</li>
+          <li><a href="mycharge_spend.html">消费记录</a></li>
+        </ul>
+      </div>
+      <p class="arrow1"><span class="arrow2"></span><span class="arrow3"></span></p>
+      <div >
+        <div class="chargecon">
+          <p class="exchange">时光币兑换：&nbsp;&nbsp;1元=1时光币</p>
+          <div style="margin:50px 0px;">
+            充值金额：<input type="text" class="coinnum">时光币
+          </div>
+          <div>
+            支付方式：
+            <form class="pymethdform">
+              <label>
+                <input type="radio" name="paymethod" style="margin-left:40px;">
+                <img src="images/alipay.png" />
+              </label>
+              <label>
+                <input type="radio" name="paymethod">
+                <img src="images/wechatpay.png" />
+              </label>
+            </form>
+          </div>
+        </div>
+        <div class="settlebox">
+          <span>注：*时光币用于购买时光阅读平台上的虚拟商品和增值服务</span>
+          <p class="paynow">
+            <span>应付：<span class="settlepri">6.00</span>元</span>
+            <a class="settled">立即支付</a>
+          </p>
+        </div>
+        <div class="demo perctrpage">
+          <div id="pager"></div>
+        </div>
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
+<!--修改头像弹出框-->
+  <div class="changhd">
+  	<div class="changtop">
+      <span>修改头像</span>
+      <a class="icon_close"></a>
+    </div>
+    <div class="changcon">
+      <div class="changcnlf">
+      	<div class="facebox">
+          <p class="btn_addcon">
+            <a class="icon_add"></a>
+            <span>选择本地图片</span>
+          </p>
+          <p>只支持JPG、PNG、GIF、大小不超过5M</p>
+        </div>
+        <div class="btn_facecon">
+          <a class="btn_fcfun">重新上传</a>
+          <a class="btn_fcfun right">旋转90°</a>
+        </div>
+      </div>
+      <div class="changcnrt">
+      	<p>预览头像</p>
+        <div>
+          <div class="face100">
+            <!--<img src="images/faceon.png">-->
+          </div>
+          <span>100px&nbsp;X&nbsp;100px</span>
+        </div>
+        <div>
+          <div class="face50">
+            <!--<img src="images/faceon.png">-->
+          </div>
+          <span>50px&nbsp;X&nbsp;50px</span>
+        </div>
+        <div>
+          <div class="face30">
+            <!--<img src="images/faceon.png">-->
+          </div>
+          <span>30px&nbsp;X&nbsp;30px</span>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="btn_changcon">
+      	<a class="btn_yes">确定</a>
+        <a class="btn_cancle">取消</a>
+      </div>
+      <div class="loadremind"><!--上传图片提醒-->
+      	<span class="ldrmp">请选择上传图片<a class="icon_closeld"></a></span>
+        <a class="btn_ldrm">确定</a>
+      </div><!--上传图片提醒结束-->
+    </div>
+  </div><!--弹出框结束-->
+  <div class="mfoter">
+    <ul>
+      <li><span style="font:12px Arial, Helvetica, sans-serif;">&copy;</span>2007-2014&nbsp;睿泰集团&nbsp;版权所有</li>
+      <li>Tel:4006751989&nbsp;&nbsp;Email:service@retechcorp.com&nbsp;&nbsp;QQ:603483407</li>
+      <li>Web:www.retechcorp.com</li>
+    </ul>
+    <p class="mfoterp">关于我们&nbsp;&nbsp;|联系我们&nbsp;&nbsp;|&nbsp;&nbsp;商务合作&nbsp;&nbsp;|&nbsp;&nbsp;多媒体图书Copyright&copy;2000-2014Retech Group C..Ltd</p>
+  </div>
+</body>
+</html>
