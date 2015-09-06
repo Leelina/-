@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>电子图书详情</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/minscreen.css" media="screen and (max-width: 1200px)">
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+</head>
+<body>
+<div class="mtop">
+	<div class="mttop">
+      <div class="mttopcon">
+        <p class="mthome">欢迎进入阅读平台!</p>
+        <ul class="mthomer">
+            <li class="tophover"><a href="login.html" style="color:#1cb177;">登录</a></li>
+            <li class="tophover"><a href="signup.html">注册</a></li>
+            <li class="mthocol">|</li>
+            <li style="padding-right:8px;"><img src="images/shujia.png"></li>
+            <li class="tophover"><a href="#">我的书架</a></li>
+            <li style="padding-right:8px;"><img src="images/shopcar.png"></li>
+            <li class="tophover"><a href="#">购物车</a><span class="mthoshop">0</span></li>
+            <li class="tophover"><a href="#">网站助手</a><span class="shape"></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="msearch">
+    	<div class="logotitle"></div>
+        <div class="mtopsearch">
+          <input type="text" value="搜索书籍名称或作者姓名" class="msearinp"><a href="searchresult.html"><img src="images/fangda.png" class="mseaimpo"></a><br/>
+          <p class="msearex">热门搜索：<a class="hotsearch">后会无期</a><a class="hotsearch">广告人的自白</a>
+              <a class="hotsearch">小时代</a><a class="hotsearch">科幻世界</a></p>
+        </div>
+    </div>
+    <div class="navgi">
+    	<a href="index.html">首页<span class="navshape"></span></a>
+        <a href="ebook.html">电子图书<span class="navshart"></span></a>
+        <a href="inactbook.html">多媒体图书<span class="navshapr"></span></a>
+        <a href="client.html" >客户端<span class="navshar"></span></a>
+    </div>
+</div>
+<div class="mcontainer">
+    <div class="searchtop">
+      <a>首页</a><span>></span><a>电子图书</a><span>></span><a>儿童读物</a><span>></span><span class="currentp">故事知道怎么办</span>
+    </div>
+ 	<div class="allbook">
+            <div class="detaille">
+                <div class="ebkinfo">
+                    <div class="ebkinfopic">
+                        <img src="images/bookx.png" class="dtinfopic">
+                    </div>
+                    <div class="dtleinfo">
+                      <h3 class="dtleinfotii">故事知道怎么办</h3>
+                      <ul style="margin-top:40px;">
+                          <li class="dtlinfo"><span class="zitiyanse">作者：</span>&nbsp;&nbsp;张广录&nbsp;&nbsp;&nbsp;主编</li>
+                          <li class="dtlinfo"><span class="zitiyanse">出版社：</span>&nbsp;&nbsp;上海交通大学出版社</li>
+                          <li class="dtlinfo"><span class="zitiyanse">综合评分：</span><img src="images/star.png" class="dtinfostar"><span class="intscore">8.0分</span></li>
+                          <li class="dtlinfo dtinfobutn">
+                            <span class="origprise">¥ 0.01</span>
+                            <span class="preprice">|</span>
+                            <span>原价：¥ 1.99</span>
+                          </li>
+                          <li class="dtlinfo cursorp">
+                          	<input type="submit" value="免费试读" class="dtinfobtnrd">
+                          	<input type="submit" value="购买" class="dtinfobtnrd btn_buy">
+                          	<span class="sharels">
+                              <a class="addshopcar">加入购物车</a>
+                              <a><span class="icon-ebook icon_collect"></span>收藏</a>
+                              <a><span class="icon-ebook icon_share"></span>分享：</a>
+                              <a class="icon-ebook icon_weibo" title="分享至新浪微博"></a>
+                              <a class="icon-ebook icon_qzone" title="分享至QQ空间"></a>
+                              <a class="icon-ebook icon_txweibo" title="分享至腾讯微博"></a>
+                            </span>
+                          </li>
+                      </ul>
+                    </div>
+                    <div style="clear:both;"></div>
+               </div>
+                <div class="ebklcon">
+                    <div class="dtbk">
+                            <ul class="dtbook" >
+                                <li class="dtbookinfo"><a href="#tst1" class="tst4"><span class="zitiyanse">书籍简介</span></a></li>
+                                <li class="dtbookmenu"><a href="#tst2" class="tst4"><span class="zitiyanse">书籍目录</span></a></li>
+                                <li class="dtbookcomt"><a href="#tst3" class="tst4"><span class="zitiyanse">全部评论</span></a>（200）</span></li>
+                            </ul>
+                    </div>
+                    <div class="bkinfobox">
+                         <ul>
+                            <li class="bkdiscrip"><a name="tst1"><span class="zitiyanse">图书信息</span></a></li>
+                            <li class="bkinfo">出版社：电子工业出版社；第1版（2010年1月1日）</li>
+                            <li class="bkinfo">丛书名：科普童话绘本馆·安全岛,当代中国科普精品书系</li>
+                            <li class="bkinfo">ISBN: 9787121092985</li>
+                            <li class="bkinfo">条形码:9787121092985</li>
+                          </ul>
+                          <p class="bkdiscrip"><span class="zitiyanse">内容介绍</span></p>
+                          <p class="coninfo">故事犹如通往孩子内心的幽径，故事中的隐喻可以作用于孩子的心灵，让他们的行为发生正向的转变。如果一个故事以充满想象力的方式如实呈现孩子的心灵状态，并带着爱和鼓励，
+                          提供一种解决方案，或提供一个看待事物的新视角，孩子就会接收到故事中的讯息，令人惊喜的改变会由此而发生。作者根据自己的经验，以丰富的事例，讲述了如何在家庭和学校生活中，通过故事来化解孩子的各种挑战性行为。
+                          </p>
+                    </div>
+                    <div class="bkinfobox">
+                        <p class="bkdiscrip"><a name="tst2"><span class="zitiyanse">书籍目录</span></a></p>
+                        <div class="bookmenucon">
+                        	<h1>第一卷：xxxxxxxxx</h1>
+                            <h3>第一章：xxxxxxxxx</h3>
+                            <p>第一节：xxxxxxxxx</p>
+                            <p class="chaptcon">
+                              故事犹如通往孩子内心的幽径，故事中的隐喻可以作用于孩子的心灵，让他们的行为发生正向的转变。
+                              如果一个故事以充满想象力的方式如实呈现孩子的心灵状态，并且带着爱和鼓励，提供一种解决方案，或提供
+                            </p>
+                            <p>第二节：xxxxxxxxx</p>
+                            <p class="chaptcon">
+                              故事犹如通往孩子内心的幽径，故事中的隐喻可以作用于孩子的心灵，让他们的行为发生正向的转变。
+                              如果一个故事以充满想象力的方式如实呈现孩子的心灵状态，并且带着爱和鼓励，提供一种解决方案，或提供
+                            </p>
+                        	<h1>第二卷：xxxxxxxxx</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="bkdiscrip"><a name="tst3"><span class="zitiyanse">全部评论</span></a><span class="zitiyanse bkdiscrip1">共&nbsp;200&nbsp;条评论</span></h3>
+                        <div class="discripcon">
+                            <ul>
+                              <li class="bkinfo">
+                                  <span class="bkinfoti">言夭书店戥羽</span><span class="bkinfotm">  2014-04-14</span>
+                                  <span class="bkinfoti1">评分：<img src="images/star.png" class="dtinfostar"></span>
+                              </li>
+                              <li class="bkinfo bkinfox">这类青春热血伪科幻的小说，看一套《饥饿游戏》就够了。</li>
+                              <li class="bkinfo fromclient">来自客户端</li>
+                            </ul>
+                        </div>
+                        <div class="discripcon">
+                            <ul>
+                              <li class="bkinfo">
+                                  <span class="bkinfoti">言夭书店戥羽</span><span class="bkinfotm">  2014-04-14</span>
+                                  <span class="bkinfoti1">评分：<img src="images/star.png" class="dtinfostar"></span>
+                              </li>
+                              <li class="bkinfo bkinfox">这类青春热血伪科幻的小说，看一套《饥饿游戏》就够了。</li>
+                              <li class="bkinfo fromclient">来自客户端</li>
+                            </ul>
+                        </div>
+                        <div class="discripcon">
+                            <ul>
+                              <li class="bkinfo">
+                                  <span class="bkinfoti">言夭书店戥羽</span><span class="bkinfotm">  2014-04-14</span>
+                                  <span class="bkinfoti1">评分：<img src="images/star.png" class="dtinfostar"></span>
+                              </li>
+                              <li class="bkinfo bkinfox">这类青春热血伪科幻的小说，看一套《饥饿游戏》就够了。</li>
+                              <li class="bkinfo fromclient">来自客户端</li>
+                            </ul>
+                        </div>
+                        <div class="discripcon">
+                            <ul>
+                              <li class="bkinfo">
+                                  <span class="bkinfoti">言夭书店戥羽</span><span class="bkinfotm">  2014-04-14</span>
+                                  <span class="bkinfoti1">评分：<img src="images/star.png" class="dtinfostar"></span>
+                              </li>
+                              <li class="bkinfo bkinfox">这类青春热血伪科幻的小说，看一套《饥饿游戏》就够了。</li>
+                              <li class="bkinfo fromclient">来自客户端</li>
+                            </ul>
+                        </div>
+                        <div class="discripcon">
+                            <ul>
+                              <li class="bkinfo">
+                                  <span class="bkinfoti">言夭书店戥羽</span><span class="bkinfotm">  2014-04-14</span>
+                                  <span class="bkinfoti1">评分：<img src="images/star.png" class="dtinfostar"></span>
+                              </li>
+                              <li class="bkinfo bkinfox">这类青春热血伪科幻的小说，看一套《饥饿游戏》就够了。</li>
+                              <li class="bkinfo fromclient">来自客户端</li>
+                            </ul>
+                        </div>
+                         <div class="discripcon">
+                            <ul>
+                              <li class="bkinfo">
+                                  <span class="bkinfoti">言夭书店戥羽</span><span class="bkinfotm">  2014-04-14</span>
+                                  <span class="bkinfoti1">评分：<img src="images/star.png" class="dtinfostar"></span>
+                              </li>
+                              <li class="bkinfo bkinfox">这类青春热血伪科幻的小说，看一套《饥饿游戏》就够了。</li>
+                              <li class="bkinfo fromclient">来自客户端</li>
+                           </ul>
+                        </div>
+                    </div>
+                    <div class="demo">
+                        <div id="pager"></div>
+                    </div>
+                  <div class="commend">
+                    <p>综合评分：&nbsp;&nbsp;<img src="images/star.png" class="dtinfostar"><span class="intscore">8分</span></p>
+                    <textarea class="comment"onfocus="if(this.value=='评论内容不少于15个字') {this.value='';}" onBlur="if(this.value=='') {this.value='评论内容不少于15个字';}">评论内容不少于15个字</textarea>
+                    <div class="remind">
+                    <span class="erroalert">异常提醒</span><input type="submit" value="发表书评" class="dtinfobut" style="margin:0px;">
+                    </div>
+                 </div>
+            </div>
+      </div>
+<!-- 右侧开始 -->    
+        <div class="detailrg">
+        		<span class="dtailrtl">买过此书的人还买过</span>
+                <div class="dtailrbox">
+                	<span class="dtailrpic">
+                    	<img src="images/book5x.png" class="dtailrpict">
+                    </span>
+                    <ul class="dtailrcon">
+                    	<li class="dtailrcti">完美的旅行</li>
+                        <li class="dtailrname">璃荣</li><br>
+                        <li class="dtailrprice"><del>￥58.00</del>&nbsp;<span style="font-weight:600">￥26.00</span></li>
+                    </ul>
+               </div>
+                <div class="dtailrbox">
+                	<span class="dtailrpic">
+                    	<img src="images/book5x.png" class="dtailrpict">
+                    </span>
+                    <ul class="dtailrcon">
+                    	<li class="dtailrcti">完美的旅行</li>
+                        <li class="dtailrname">璃荣</li><br>
+                        <li class="dtailrprice"><del>￥58.00</del>&nbsp;<span style="font-weight:600">￥26.00</span></li>
+                    </ul>
+               </div>
+                <div class="dtailrbox">
+                	<span class="dtailrpic">
+                    	<img src="images/book5x.png" class="dtailrpict">
+                    </span>
+                    <ul class="dtailrcon">
+                    	<li class="dtailrcti">完美的旅行</li>
+                        <li class="dtailrname">璃荣</li><br>
+                        <li class="dtailrprice"><del>￥58.00</del>&nbsp;<span style="font-weight:600">￥26.00</span></li>
+                    </ul>
+               </div>
+                <div class="dtailrbox">
+                	<span class="dtailrpic">
+                    	<img src="images/book5x.png" class="dtailrpict">
+                    </span>
+                    <ul class="dtailrcon">
+                    	<li class="dtailrcti">完美的旅行</li>
+                        <li class="dtailrname">璃荣</li><br>
+                        <li class="dtailrprice"><del>￥58.00</del>&nbsp;<span style="font-weight:600">￥26.00</span></li>
+                    </ul>
+               </div>
+                <div class="dtailrbox">
+                	<span class="dtailrpic">
+                    	<img src="images/book5x.png" class="dtailrpict">
+                    </span>
+                    <ul class="dtailrcon">
+                    	<li class="dtailrcti">完美的旅行</li>
+                        <li class="dtailrname">璃荣</li><br>
+                        <li class="dtailrprice"><del>￥58.00</del>&nbsp;<span style="font-weight:600">￥26.00</span></li>
+                    </ul>
+               </div>
+        </div>
+<!--右侧结束--> 
+		<div style="clear:both;"></div>       
+      </div>
+<!--弹出框 -->     
+          <div class="popshopinfo">
+          	<div class="popcon">
+              <span class="popbookpic"><img src="images/book1x.png"></span>
+              <div class="popbuybkinfo">
+                  <h3 class="">故事知道怎么办</h3>
+                  <ul style="margin-top:30px;">
+                      <li class="dtlinfo"><span class="popinfotitle">作者：</span>&nbsp;&nbsp;张广录&nbsp;&nbsp;&nbsp;主编</li>
+                      <li class="dtlinfo"><span class="popinfotitle">出版社：</span>&nbsp;&nbsp;上海交通大学出版社</li>
+                      <li class="dtlinfo"><span class="popinfotitle">电子书价格：</span><span class="pophlcor">1.99</span>元</li>
+                  </ul>
+              </div>
+              <p style="float:right;margin-top:-60px;">
+                  <a class="acconbtn">立即结算</a><br><a class="selecbk">继续选书</a>
+              </p>
+            </div>
+            <h2 class="popfinip">书籍成功加入购物车！</h2>
+            <p class="adbknump">已加入书籍共<span class="pophlnum">6</span>本</p>
+          </div>
+<!-- 弹出框结尾  -->   
+</div>
+<!--内容部分结束-->  
+ <div class="top">
+      <a id="totop"><img src="images/top.png"></a>
+ </div>
+ 
+<div class="mfoter">
+	<ul class="mfoterul">
+        <li><span class="copy">&copy;</span>2007-2014&nbsp;睿泰集团&nbsp;版权所有</li>
+        <li>Tel:4006751989&nbsp;&nbsp;Email:service@retechcorp.com&nbsp;&nbsp;QQ:603483407</li>
+        <li>Web:www.retechcorp.com</li>
+    </ul>
+    <p class="mfoterp">关于我们&nbsp;&nbsp;|联系我们&nbsp;&nbsp;|&nbsp;&nbsp;商务合作&nbsp;&nbsp;|&nbsp;&nbsp;多媒体图书Copyright&copy;2000-2014Retech Group C..Ltd</p>
+</div>
+</body>
+</html>

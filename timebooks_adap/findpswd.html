@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>忘记密码-手机找回</title>
+<link href="css/login.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/minscreen.css" media="screen and (max-width: 1200px)">
+<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="js/slide.js" type="text/javascript"></script>
+</head>
+<body class="signuppic">
+  <div class="signup">
+  	<div>
+      <a class="logosnup" href="index.html"></a>
+      <span class="signuprt">如果您已有账号，请直接<a href="login.html" class="snupsnin">登录</a></span>
+    </div>
+    <p class="supo">找回密码</p>
+    <div class="sucon">
+        <div class="findlist newfindbox">
+          <a class="fdlist now" id="phonest">
+          	手机找回
+            <span class="switchbox inlneblock" id="phonearrw">
+            <span class="arrowfd"></span>
+            <span class="arrowfd1"></span>
+            </span>
+          </a>
+          <span style="color:#CECAC2;">|</span>
+          <a class="fdlist" id="mailst">
+          	邮箱找回
+            <span class="switchbox" id="mailarrw">
+            <span class="arrowfd"></span>
+            <span class="arrowfd1"></span>
+            </span>
+          </a>
+        </div><!--两种找回方式-->
+        
+      <div class="switchbox" id="mailfind">
+          <div class="switchbox block">
+            <div>
+              <span class="sninfolenth">邮箱:</span>
+              <input type="text" value="请您输入邮箱账号" class="suinput">
+            </div>
+            <div>
+              <span class="sninfolenth">验证码:</span>
+              <input type="text" value="请您输入验证码" class="suinput captchas">
+              <img src="images/yzm.png" class="captpic">
+              <a class="changecapt">换一换</a>
+            </div>
+            <a class="subut nextbtn" id="nextmail">下一步</a>
+          </div>
+          <div class="switchbox " id="mailafter">
+            <div>
+              <span class="sninfolenth">新密码:</span>
+              <input type="password" value="*****" class="suinput">
+            </div>
+            <div>
+              <span class="sninfolenth">确认密码:</span>
+              <input type="password" value="再次输入密码" class="suinput">
+            </div>
+            <a class="subut">确定</a>
+          </div>
+      </div><!--邮箱找回box-->
+      
+      <div class="switchbox block" id="phonefind">
+          <div class="switchbox block">
+            <div>
+              <span class="sninfolenth">手机:</span>
+              <input type="text" value="请您输入手机号" class="suinput">
+            </div>
+            <div>
+              <span class="sninfolenth">验证码:</span>
+              <input type="text" value="请您输入验证码" class="suinput captchas">
+              <a class="getcaptchas">获取短信验证码</a>
+              <span class="getcaptp">获取短信验证码(60)</span>
+            </div>
+            <a class="subut nextbtn" id="nextphone">下一步</a>
+          </div>
+          <div class="switchbox" id="phoneafter">
+            <div>
+              <span class="sninfolenth">新密码:</span>
+              <input type="password" value="*****" class="suinput">
+            </div>
+            <div>
+              <span class="sninfolenth">确认密码:</span>
+              <input type="password" value="再次输入密码" class="suinput">
+            </div>
+            <a class="subut">确定</a>
+          </div>
+      </div> <!--手机找回box-->
+    </div><!--。sucon所在div结束-->
+  </div><!--。signup所在div结束-->
+  <div class="logbottom">
+    <a href="http://www.baidu.com">关于我们</a>|<a>联系我们</a>|<a>商务合作</a>|<a>交互电子书</a>Copyright&copy;&nbsp;2000-2015&nbsp;Retech&nbsp;Group&nbsp;Co.,Ltd
+  </div>
+</body>
+</html>
+

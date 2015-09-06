@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>消费记录</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/minscreen.css" media="screen and (max-width: 1200px)">
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+</head>
+<body>
+  <div class="mtop">
+    <div class="mttop">
+      <div class="mttopcon">
+        <p class="mthome">欢迎进入阅读平台!</p>
+        <ul class="mthomer">
+          <li class="tophover"><a href="login.html" style="color:#1cb177;">登录</a></li>
+          <li class="tophover"><a href="signup.html">注册</a></li>
+          <li class="mthocol">|</li>
+          <li style="padding-right:8px;"><img src="images/shujia.png"></li>
+          <li class="tophover"><a href="#">我的书架</a></li>
+          <li style="padding-right:8px;"><img src="images/shopcar.png"></li>
+          <li class="tophover"><a href="#">购物车</a><span class="mthoshop">0</span></li>
+          <li class="tophover"><a href="#">网站助手</a><span class="shape"></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="msearch">
+      <div class="logotitle"></div>
+      <div class="mtopsearch">
+        <input type="text" value="搜索书籍名称或作者姓名" class="msearinp"><a href="searchresult.html"><img src="images/fangda.png" class="mseaimpo"></a><br/>
+        <p class="msearex">热门搜索：<a class="hotsearch">后会无期</a><a class="hotsearch">广告人的自白</a>
+            <a class="hotsearch">小时代</a><a class="hotsearch">科幻世界</a></p>
+      </div>
+    </div>
+    <div class="navgi">
+      <a href="index.html">首页<span class="navshape"></span></a>
+      <a href="ebook.html">电子图书<span class="navshart"></span></a>
+      <a href="inactbook.html">多媒体图书<span class="navshapr"></span></a>
+      <a href="client.html" >客户端<span class="navshar"></span></a>
+    </div>
+  </div>    
+  <div class="mybook">
+    <div class="mybookleft">
+      <div class="face">
+        <img src="images/my.png">
+      </div>
+      <p class="mybookname">张丹</p>
+      <div class="percentr">
+        <p>
+          <span class="iconmybook"></span><a href="mybook.html">我的书架</a>
+        </p>
+        <p>
+          <span class="iconmycollct"></span><a href="mycool.html">我的收藏</a>
+        </p>
+        <p class="perctractbg">
+          <span class="iconmychargeon"></span><a href="mycharge.html" class="percentract">充值中心</a>
+        </p>
+        <p>
+          <span class="iconmyset"></span><a href="myset.html">账号设置</a>
+        </p>
+        <p>
+          <span class="iconmymsg"></span><a href="mymsg.html">系统消息</a>
+        </p>
+        <p>
+          <span class="iconmyproblem"></span><a href="myproblem.html">常见问题</a>
+        </p>
+      </div>
+    </div>       
+    <div class="mybookright">
+      <div class="mybookrighttitle1">
+        <a class="titletxt1">充值中心</a>
+        <span style="margin:0px 50px;">账号:&nbsp;&nbsp;<span>test003</span></span>
+        <span>余额:&nbsp;&nbsp;<span>123456</span>时光币</span>
+        <ul class="chargebox">
+          <li><a href="mycharge.html">充值</a></li>
+          <li class="separator">|</li>
+          <li><a href="mycharge_recrd.html">充值记录</a></li>
+          <li class="separator">|</li>
+          <li><a href="mycharge_spend.html" class="chargeboxat">消费记录</a></li>
+        </ul>
+      </div>
+      <p class="arrow1"><span class="arrow2"></span><span class="arrow3"></span></p>
+      <div >
+      	<div class="chargerecrd">
+          <table class="chargetable">
+          	<thead>
+              <td width="30%">消费时间</td>
+              <td width="20%">商品名称</td>
+              <td width="25%">金额</td>
+              <td width="25%">来源</td>
+            </thead>
+            <tr>
+              <td>2014-12-12&nbsp;12:40</td>
+              <td>《xxxxx图书》</td>
+              <td>30元</td>
+              <td>Web平台</td>
+            </tr>
+            <tr>
+              <td>2014-12-12&nbsp;12:40</td>
+              <td>《xxxxx图书》</td>
+              <td>30元</td>
+              <td>Android</td>
+            </tr>
+            <tr>
+              <td>2014-12-12&nbsp;12:40</td>
+              <td>《xxxxx图书》</td>
+              <td>30元</td>
+              <td>IOS</td>
+            </tr>
+          </table>
+        </div>
+        <div class="demo perctrpage"><!--分页div-->
+          <div id="pager"></div>
+        </div>
+      </div><!--右侧内容部分结束不包含顶部功能条-->
+    </div><!--右侧总内容结束-->
+    <div style="clear:both;"></div>
+  </div>
+  <div class="mfoter">
+    <ul>
+      <li><span style="font:12px Arial, Helvetica, sans-serif;">&copy;</span>2007-2014&nbsp;睿泰集团&nbsp;版权所有</li>
+      <li>Tel:4006751989&nbsp;&nbsp;Email:service@retechcorp.com&nbsp;&nbsp;QQ:603483407</li>
+      <li>Web:www.retechcorp.com</li>
+    </ul>
+    <p class="mfoterp">关于我们&nbsp;&nbsp;|联系我们&nbsp;&nbsp;|&nbsp;&nbsp;商务合作&nbsp;&nbsp;|&nbsp;&nbsp;多媒体图书Copyright&copy;2000-2014Retech Group C..Ltd</p>
+  </div>
+</body>
+</html>

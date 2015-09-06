@@ -1,0 +1,555 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>多媒体图书</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/minscreen.css" media="screen and (max-width: 1200px)">
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script type="text/javascript">
+
+if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4))
+{
+document.write('<link rel=stylesheet type="text/css" href="css/ie.css">')
+}
+else {document.write('<link rel=stylesheet type="text/css" href="css/ns.css">')}
+
+</script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var width = $(".banner_nei").width();
+        $(".ib_book").hover(function () {
+            $(".banner_nei").stop().animate({right: 0}, 1000);
+			$(".banner_nei1").css("display","none");
+			$(".banner_nei2").css("display","none");
+			$(".banner_nei3").css("display","none");
+			$(".banner_nei4").css("display","none");
+        }, function () {
+            $(".banner_nei").stop().animate({right: -width}, 0);
+			$(".banner_nei1").css("display","block");
+        });
+    });
+	$(document).ready(function () {
+        var width = $(".banner_hover2").width();
+        $(".ib_book1").hover(function () {
+            $(".banner_hover2").stop().animate({right: 0}, 1000);
+			$(".banner_nei1").css("display","none");
+			$(".banner_nei2").css("display","none");
+			$(".banner_nei3").css("display","none");
+			$(".banner_nei4").css("display","none");
+        }, function () {
+            $(".banner_hover2").stop().animate({right: -width}, 0);
+			$(".banner_nei2").css("display","block");
+			
+        });
+    });
+	$(document).ready(function () {
+        var width = $(".banner_hover3").width();
+        $(".ib_book2").hover(function () {
+            $(".banner_hover3").stop().animate({right: 0}, 1000);
+			$(".banner_nei1").css("display","none");
+			$(".banner_nei2").css("display","none");
+			$(".banner_nei3").css("display","none");
+			$(".banner_nei4").css("display","none");
+        }, function () {
+            $(".banner_hover3").stop().animate({right: -width}, 0);
+			$(".banner_nei3").css("display","block");
+        });
+    });
+	$(document).ready(function () {
+        var width = $(".banner_hover4").width();
+        $(".ib_book3").hover(function () {
+            $(".banner_hover4").stop().animate({right: 0}, 1000);
+			$(".banner_nei1").css("display","none");
+			$(".banner_nei2").css("display","none");
+			$(".banner_nei3").css("display","none");
+			$(".banner_nei4").css("display","none");
+        }, function () {
+            $(".banner_hover4").stop().animate({right: -width}, 0);
+			$(".banner_nei4").css("display","block");
+        });
+    });
+	
+</script>
+</head>
+<body> 
+<div class="mtop">
+	<div class="mttop">
+      <div class="mttopcon">
+        <p class="mthome">欢迎进入阅读平台!</p>
+        <ul class="mthomer">
+            <li class="tophover"><a href="login.html" style="color:#1cb177;">登录</a></li>
+            <li class="tophover"><a href="signup.html">注册</a></li>
+            <li class="mthocol">|</li>
+            <li style="padding-right:8px;"><img src="images/shujia.png"></li>
+            <li class="tophover"><a href="#">我的书架</a></li>
+            <li style="padding-right:8px;"><img src="images/shopcar.png"></li>
+            <li class="tophover"><a href="#">购物车</a><span class="mthoshop">0</span></li>
+            <li class="tophover"><a href="#">网站助手</a><span class="shape"></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="msearch">
+    	<div class="logotitle"></div>
+        <div class="mtopsearch">
+          <input type="text" value="搜索书籍名称或作者姓名" class="msearinp"><a href="searchresult.html"><img src="images/fangda.png" class="mseaimpo"></a><br/>
+          <p class="msearex">热门搜索：<a class="hotsearch">后会无期</a><a class="hotsearch">广告人的自白</a>
+              <a class="hotsearch">小时代</a><a class="hotsearch">科幻世界</a></p>
+        </div>
+    </div>
+    <div class="navgi">
+    	<a href="index.html">首页<span class="navshape"></span></a>
+        <a href="ebook.html">电子图书<span class="navshart"></span></a>
+        <a href="inactbook.html" style="border-bottom:3px solid #FFE080;color:#FFE080;">多媒体图书<span class="navshapr"></span><div class="navshapr1" style=""></div></a>
+        <a href="client.html" >客户端<span class="navshar"></span></a>
+    </div>
+</div>    
+    <div class="eachebook">
+       <div class="eachebookleft">
+            <div class="eachleftshang">
+        	<h3 class="eachtitle">多媒体图书分类</h3>
+            <ul class="sortinterbk">
+            	<li><a class="eachchild"><span class="eachchildbg"></span>儿童绘本</a></li>
+                <li><a class="eachinterebook"><span class="eachinterbkbg"></span>多媒体图书</a></li>
+                <li><a class="eachjournal"><span class="eachjouralbg"></span>期刊杂志</a></li>
+                <li><a class="eachjournal"><span class="eachjouralbg"></span>期刊杂志</a></li>
+                <li><a class="eachchild"><span class="eachchildbg"></span>儿童绘本</a></li>
+                <li><a class="eachinterebook"><span class="eachinterbkbg"></span>多媒体图书</a></li>
+                <li><a class="eachjournal"><span class="eachjouralbg"></span>期刊杂志</a></li>
+                <li><a class="eachjournal"><span class="eachjouralbg"></span>期刊杂志</a></li>
+                <li><a class="eachchild"><span class="eachchildbg"></span>儿童绘本</a></li>
+                <li><a class="eachinterebook"><span class="eachinterbkbg"></span>多媒体图书</a></li>
+            </ul>
+            </div>
+             <div class="ebookleftxia">
+              <img src="images/left1.png" class="leftimg">
+              <img src="images/left2.png" class="leftimg">
+              <img src="images/left3.png" class="leftimg">
+              <img src="images/left4.png" class="leftimg">
+              <img src="images/left1.png" class="leftimg">
+              <img src="images/left2.png" class="leftimg">
+             </div>  
+                <div class="clear"></div>
+        </div>
+           <div class="eachright">
+              <div class="eachbanner">
+              	<div class="medbannr">
+                  <img src="images/eachbook_bg.png" style="margin-left:-10px;">
+                  <img src="images/eachbook_th.png" class="ib_th">
+                  <img src="images/book1.png" class="ib_book">
+                  <img src="images/book2.png" class="ib_book1">
+                  <img src="images/book3.png" class="ib_book2">
+                  <img src="images/book4.png" class="ib_book3">
+                </div>
+                <div class="medbannrlt">
+                <img src="images/eachbook_bglt.png">
+                <img src="images/eachbook_thlt.png" class="ib_thlt">
+                <img src="images/book1.png" class="ib_book">
+                <img src="images/book2.png" class="ib_book1">
+                </div>
+                <div class="banner_div">
+                  <p class="banner_title">新书上架</p>
+                  <!--banner第一本书hover-->
+                  <div class="banner_hover">
+                  <div class="banner_nei">
+                     <img src="images/banner_kuang.png" class="">
+                     <img src="images/book1.png" class="banner_img">
+                     <p class="banner_price"><span class="" id="price1">￥2.00</span><s class="banner_price1" id="price2">￥58.00</s></p>
+                        <div class="banner_title1">            
+                          <p class="banner_title2" id="banner_title">看懂世界格局的看懂世界格局的...</p>
+                          <p class="banner_w" id="banner_w">【美】Ka Wai</p>
+                          <p class="banner_n" id="banner_n">内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介...</p>
+                          <p class="banner_btn">立即购买</p>
+                        </div>
+                 </div>
+                 </div>
+                 <!--banner第二本书hover-->
+                 <div class="banner_hover">
+                  <div class="banner_hover2">
+                     <img src="images/banner_kuang.png" class="">
+                     <img src="images/book2.png" class="banner_img">
+                     <p class="banner_price"><span class="" id="price1">￥2.00</span><s class="banner_price1" id="price2">￥58.00</s></p>
+                        <div class="banner_title1">            
+                          <p class="banner_title2" id="banner_title">看懂世界格局的看懂世界格局的...</p>
+                          <p class="banner_w" id="banner_w">【美】Ka Wai</p>
+                          <p class="banner_n" id="banner_n">内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介...</p>
+                          <p class="banner_btn">立即购买</p>
+                        </div>
+                 </div>
+                 </div>
+                 <!--banner第三本书hover-->
+                 <div class="banner_hover">
+                  <div class="banner_hover3">
+                     <img src="images/banner_kuang.png" class="">
+                     <img src="images/book3.png" class="banner_img">
+                     <p class="banner_price"><span class="" id="price1">￥2.00</span><s class="banner_price1" id="price2">￥58.00</s></p>
+                        <div class="banner_title1">            
+                          <p class="banner_title2" id="banner_title">看懂世界格局的看懂世界格局的...</p>
+                          <p class="banner_w" id="banner_w">【美】Ka Wai</p>
+                          <p class="banner_n" id="banner_n">内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介...</p>
+                          <p class="banner_btn">立即购买</p>
+                        </div>
+                 </div>
+                 </div>
+                 <!--banner第四本书hover-->
+                 <div class="banner_hover">
+                  <div class="banner_hover4">
+                     <img src="images/banner_kuang.png" class="">
+                     <img src="images/book4.png" class="banner_img">
+                     <p class="banner_price"><span class="" id="price1">￥2.00</span><s class="banner_price1" id="price2">￥58.00</s></p>
+                        <div class="banner_title1">            
+                          <p class="banner_title2" id="banner_title">看懂世界格局的看懂世界格局的...</p>
+                          <p class="banner_w" id="banner_w">【美】Ka Wai</p>
+                          <p class="banner_n" id="banner_n">内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介...</p>
+                          <p class="banner_btn">立即购买</p>
+                        </div>
+                 </div>
+                 </div>
+                 <!--banner第一本书底层显示-->
+                 <div class="banner_nei1">
+                     <img src="images/banner_kuang.png" class="">
+                     <img src="images/book1.png" class="banner_img">
+                     <p class="banner_price"><span class="">￥2.00</span><s class="banner_price1">￥58.00</s></p>
+                        <div class="banner_title1">            
+                          <p class="banner_title2">看懂世界格局的看懂世界格局的...</p>
+                          <p class="banner_w">【美】Ka Wai</p>
+                          <p class="banner_n">内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介...</p>
+                          <p class="banner_btn">立即购买</p>
+                        </div>
+                 </div>
+                 <!--banner第二本书底层显示-->
+                 <div class="banner_nei2">
+                     <img src="images/banner_kuang.png" class="">
+                     <img src="images/book2.png" class="banner_img">
+                     <p class="banner_price"><span class="">￥2.00</span><s class="banner_price1">￥58.00</s></p>
+                        <div class="banner_title1">            
+                          <p class="banner_title2">看懂世界格局的看懂世界格局的...</p>
+                          <p class="banner_w">【美】Ka Wai</p>
+                          <p class="banner_n">内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介...</p>
+                          <p class="banner_btn">立即购买</p>
+                        </div>
+                 </div>
+                 <!--banner第三本书底层显示-->
+                 <div class="banner_nei3">
+                     <img src="images/banner_kuang.png" class="">
+                     <img src="images/book3.png" class="banner_img">
+                     <p class="banner_price"><span class="">￥2.00</span><s class="banner_price1">￥58.00</s></p>
+                        <div class="banner_title1">            
+                          <p class="banner_title2">看懂世界格局的看懂世界格局的...</p>
+                          <p class="banner_w">【美】Ka Wai</p>
+                          <p class="banner_n">内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介...</p>
+                          <p class="banner_btn">立即购买</p>
+                        </div>
+                 </div>
+                 <!--banner第四本书底层显示-->
+                 <div class="banner_nei4">
+                     <img src="images/banner_kuang.png" class="">
+                     <img src="images/book4.png" class="banner_img">
+                     <p class="banner_price"><span class="">￥2.00</span><s class="banner_price1">￥58.00</s></p>
+                        <div class="banner_title1">            
+                          <p class="banner_title2">看懂世界格局的看懂世界格局的...</p>
+                          <p class="banner_w">【美】Ka Wai</p>
+                          <p class="banner_n">内容简介内容简介内容简介alsdfjoa jfoisdjfasdfo sjfo sd fsaid fm;sdk f内容简介内容简介内容简介内容简介内容简介...</p>
+                          <p class="banner_btn">立即购买</p>
+                        </div>
+                 </div>
+              </div>
+              
+              <div class="eachhot eachbest">
+              <p class="eachhottitle">
+              <a class="eachhottitle1" href="javascript:hsf('aw1')" id="aw1">人气书籍<span class="arrowp"><span class="arrowinbk"></span><span class="arrowinbk1"></span></span></a><span class="eachhottitle2">|</span>
+              <a class="eachhottitle3" href="javascript:hsf('aw2')" id="aw2">热销书籍<span class="arrowp1"><span class="arrowhtbk"></span><span class="arrowhtbk1"></span></span></a>
+              <span class="freemore"><a class="freemore1">更多</a>>></span></p>
+              <div class="ebookrightnew3">
+                    <ul>
+                       <li class="ebookrightnew4"> 
+                          <ul>
+                          <li> <img src="images/book1.png" class="ebookimg"></li>
+                          <li class="ebooktitle">看懂世界的第一本书2</li>
+                         
+                          </ul>
+                       </li>
+                       <li class="ebookrightnew4">
+                          <ul>
+                          <li> <img src="images/book2.png" class="ebookimg"></li>
+                          <li class="ebooktitle">看懂世界的第一本书2</li>
+                          
+                          </ul>
+                       </li>
+                       <li class="ebookrightnew4">
+                          <ul>
+                          <li> <img src="images/book3.png" class="ebookimg"></li>
+                          <li class="ebooktitle">看懂世界的第一本书2</li>
+                        
+                          </ul>
+                       </li>
+                       <li class="ebookrightnew4">
+                          <ul>
+                          <li> <img src="images/book4.png" class="ebookimg"></li>
+                          <li class="ebooktitle">看懂世界的第一本书2</li>
+                         
+                          </ul>
+                       </li>
+                       <li class="ebookrightnew4 adaphide">
+                          <ul>
+                          <li> <img src="images/book5.png" class="ebookimg"></li>
+                          <li class="ebooktitle">看懂世界的第一本书2</li>
+                         
+                          </ul>
+                       </li>
+                       <li class="ebookrightnew5 adaphide">
+                          <ul>
+                          <li> <img src="images/book6.png" class="ebookimg"></li>
+                          <li class="ebooktitle">看懂世界的第一本书2</li>
+                          
+                          </ul>
+                       </li>
+                    </ul>
+      			</div>
+            </div>
+              
+              <div class="eachfree">
+              <div class="righthot1"><img src="images/hitsbook.png" class="hitsimg">免费书籍<span class="freemore"><a class="freemore1">更多</a>>></span></div>
+                   <div class="ebookrightnew3">
+      <ul>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book1.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book2.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book3.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book4.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4 adaphide">
+            <ul>
+            <li> <img src="images/book5.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew5 adaphide">
+            <ul>
+            <li> <img src="images/book6.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+      </ul>
+      </div>
+                  <div class="ebookrightnew3">
+      <ul>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book1.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book2.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book3.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book4.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4 adaphide">
+            <ul>
+            <li> <img src="images/book5.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew5 adaphide">
+            <ul>
+            <li> <img src="images/book6.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><span class="price3">免费</span>&nbsp;<s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+      </ul>
+      </div>
+              </div>
+              <div class="eachjingpin">
+              <div class="righthot1"><img src="images/hitsbook.png" class="hitsimg">精品书籍<span class="freemore"><a class="freemore1">更多</a>>></span></div>
+               <div class="ebookrightnew3">
+      <ul>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book1.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book2.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book3.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book4.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4 adaphide">
+            <ul>
+            <li> <img src="images/book5.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew5 adaphide">
+            <ul>
+            <li> <img src="images/book6.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+      </ul>
+      </div>
+               <div class="ebookrightnew3">
+      <ul>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book1.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book2.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book3.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4">
+            <ul>
+            <li> <img src="images/book4.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew4 adaphide">
+            <ul>
+            <li> <img src="images/book5.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+         <li class="ebookrightnew5 adaphide">
+            <ul>
+            <li> <img src="images/book6.png" class="ebookimg"></li>
+            <li class="ebooktitle">看懂世界的第一本书2</li>
+            <li class="ebooknewwriter">【美】Ka Wei..</li>
+            <li><img src="images/star.png"></li>
+            <li><span class="price1">￥2.00</span><s class="price2">￥58.00</s></li>
+            </ul>
+         </li>
+      </ul>
+      </div>
+    </div>
+    <div class="demo">
+      <div id="pager" ></div>
+    </div>
+   </div>          
+  </div>
+  <div style="clear:both;"></div>
+ </div>
+<div class="mfoter">
+	<ul>
+        <li><span style="font:12px Arial, Helvetica, sans-serif;">&copy;</span>2007-2014&nbsp;睿泰集团&nbsp;版权所有</li>
+        <li>Tel:4006751989&nbsp;&nbsp;Email:service@retechcorp.com&nbsp;&nbsp;QQ:603483407</li>
+        <li>Web:www.retechcorp.com</li>
+    </ul>
+    <p class="mfoterp">关于我们&nbsp;&nbsp;|联系我们&nbsp;&nbsp;|&nbsp;&nbsp;商务合作&nbsp;&nbsp;|&nbsp;&nbsp;多媒体图书Copyright&copy;2000-2014Retech Group C..Ltd</p>
+</div>
+</body>
+</html>

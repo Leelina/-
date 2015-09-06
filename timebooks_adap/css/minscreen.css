@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/*首页*/
+body{
+	min-width:960px;
+	}
+.mttopcon{
+	width:960px;
+	}
+.mcontainer{
+	width:960px;
+	}
+.contpmain{
+	float:left;
+	margin-left:20px;
+	}
+.contplog{
+	display:none;
+	}
+.minrecorm{
+	display:none;
+	}	
+.mcirclerr{
+	margin:0px 10px;
+	}
+.mcirclerl{
+	margin:0px 10px;
+	}
+.mcirclert{
+	margin:0px 10px;
+	}
+.conbku li{
+	margin:10px 42px;
+	}
+.conbku .firstconbk{
+	margin:10px 30px;
+	}
+.conbkul li{
+	margin:10px 11px;
+	}
+.conbkul .lastconbk{
+	margin:10px 0px 10px 11px;
+	}
+.mfoter{
+	min-width:960px;
+	}
+.recombku li{
+	margin-right:20px;
+	}
+.conbkul li{
+	margin:10px 31px;
+	}
+/*购买失败buyfail*/	
+.shopcontainer{
+	width:960px;
+	} 
+/*客户端*/
+.client{min-width:960px;}
+/*栏目页*/	
+.column{
+	width:960px;
+	}
+.columnright{
+	width:710px;
+	}
+.ebookrightnew4{
+	margin-left:38px;
+	padding-right:38px;
+	}
+/*电子书*/
+.ebook{
+	width:960px;
+	}
+.ebookright{
+	width:710px;
+	}
+.ebookrightnew2{
+	margin-left:30px;
+	width:300px;
+	}
+/*电子书详情*/	
+.detailrg{
+	width:25%;
+	}
+.sharels{
+	float:left;
+	margin-top:20px;
+	}
+/*列表页*/
+.list{
+	width:960px;
+	}
+.listright{
+	width:710px;
+	}
+
+/*个人中心*我的书架*/
+.mybook{
+	width:960px;
+	}
+.mbrn{
+	margin:20px 0px 20px 0px;
+	width:235px;
+	}
+.mybookright{
+	width:76%;
+	}
+.perctrpage{
+	margin-left:170px;
+	}
+.paynow{
+	margin-top:50px;
+	}	
+.pymethdform input{
+	margin:0px 30px 0px 50px;
+	}
+/*账号设置*/		
+.mysetconbox{
+	margin-left:120px;
+	}
+
+/*搜索结果页面*/
+.srchrsulcon{
+	width:710px;
+	}
+.srchconbku li{
+	margin:10px 35px;
+	}
+.srchconbku .firstconbk{margin:10px 34px 10px;}
+
+/*忘记密码手机找回*/
+.signuppic{
+	min-width:960px;
+	}
+/*登录界面*/
+.logscreen{
+	min-width:960px;
+	}
+.lflogcon{
+	margin-left:7%;
+	}		
+.lsright{
+	right:7%;
+	}
+.lsrightcover{
+	right:7%;
+	}
+/*多媒体图书*/
+.eachebook{
+	width:960px;
+	}
+.eachright{
+	width:710px;
+	}
+.medbannr{
+	display:none;
+	}
+.medbannrlt{
+	display:block;
+	position:relative;
+	}
+.ib_thlt{
+	position:absolute;
+	right:20px;
+	top:10px;
+	z-index:99;
+	}
+.ib_book{
+	position:absolute;
+	right:245px;
+	top:70px;
+	margin:0px;
+	}
+.ib_book1{
+	position:absolute;
+	right:65px;
+	top:70px;
+	margin:0px;
+	}
+.banner_title{
+	margin:-240px 0px 0px 20px;
+	}
+.banner_hover{
+	margin:15px 0px 0px 10px;
+	}
+.banner_nei1,.banner_nei2{
+	margin-left:10px;
+	}
+.adaphide{
+	display:none;
+	}
+
+
+
+
+
+	
+	
