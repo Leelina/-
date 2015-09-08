@@ -123,6 +123,7 @@ ul{list-style-type:none;}
 .hotbkp{padding:8px;display:inline-block;}
 .topcn{
 	width:240px;
+
 	font:12px/1 "宋体";
 	}
 .topcn li{
@@ -2267,24 +2268,4 @@ g,circle{
 	font:24px/1 "微软雅黑";
 	text-decoration:underline;
 	cursor:pointer;
-	}	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}
