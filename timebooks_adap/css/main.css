@@ -667,7 +667,7 @@ ul{list-style-type:none;}
 	font:12px/1 "黑体";
 	color:#ff0000;
 	margin-right:5px;
-	vertical-align:middle;
+	/*vertical-align:middle;*/
 	}
 .icon-ebook{
 	background:url(../images/ebookdetail.png) no-repeat;

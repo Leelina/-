@@ -84,7 +84,8 @@ body{
 	}
 .sharels{
 	float:left;
-	margin-top:20px;
+	clear:left;
+	margin-top:-20px;
 	}
 /*列表页*/
 .list{
