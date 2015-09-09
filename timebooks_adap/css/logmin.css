@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/*登录页面*/
+.logscreen{
+
+	min-width: 350px;
+}
+.lflogcon{
+	display: none;
+}
+.logomin{
+	display: block;
+	left: 70px;
+	top:-120px;
+}
+.welcomewd{
+	display: none;
+}
+.lsright{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -160px;
+}
+.lsrightcover{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -160px;
+}
+.logbottom{
+	display: none;
+	/*position: absolute;
+	bottom: -7%;
+	width: 100%;}*/

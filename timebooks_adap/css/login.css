@@ -12,7 +12,7 @@ a{text-decoration:none;}
 	}
 .logscreen{
 	width:100%;
-	min-width:1180px;
+	min-width:960px;
 	height:487px;
 	background:url(../images/logbggreen.png);
 	text-align:center;
@@ -32,6 +32,9 @@ a{text-decoration:none;}
 	display:block;
 	cursor:pointer;
 	}
+.logomin{
+	display: none;
+}
 .welcomewd{
 	font:16px/1 "微软雅黑";
 	color:#343434;
