@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-body{margin:0px;padding:0px;font:12px/1 Arial,Helvetical,snas-serif;}
+body{margin:0px;padding:0px;font:12px/1  arial,"Microsoft Yahei",sans-serif; }
 h3,p,input,ul,img{margin:0px;padding:0px;}
 ul{list-style-type:none;}
 input{outline:none;}
@@ -36,7 +36,7 @@ a{text-decoration:none;}
 	display: none;
 }
 .welcomewd{
-	font:16px/1 "微软雅黑";
+	font-size:16px;
 	color:#343434;
 	display:inline-block;
 	position:absolute;
@@ -81,13 +81,13 @@ a{text-decoration:none;}
 	padding:10px 20px;
 	}
 .userp{
-	font:21px "微软雅黑";
+	font-size:21px;
 	margin:10px auto;
 	}
 .logform{
 	position:relative;
 	margin:20px auto;
-	font:13px "宋体";
+	font-size:13px;
 	width:280px;
 	height:40px;
 	border:1px solid #bae8d6;
@@ -97,7 +97,9 @@ a{text-decoration:none;}
 	height:38px;
 	background:none;
 	color:#fff;
-	font:13px/38px "宋体";
+	font-size:13px;
+	line-height:38px;
+	font-family: "Microsoft Yahei",arial,sans-serif;
 	box-sizing:border-box;
 	border:none;
 	padding:0px 5px;
@@ -128,10 +130,8 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	}
 .logauto{
 	margin-left:5px;
-	font:12px/1 "宋体";
 	}
 .loglost{
-	font:12px/1 "宋体";
 	cursor:pointer;
 	text-decoration:none;
 	margin-left:145px;
@@ -145,7 +145,7 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	height:40px;
 	color:#fefefe;
 	background:#ff9c00;
-	font:20px/1 "微软雅黑";
+	font-size:20px;
 	cursor:pointer;
 	border:none;
 	margin-top:20px;
@@ -156,7 +156,6 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	margin-top:30px;
 	padding-top:20px;
 	border-top:dashed 1px #b4e2d0;
-	font-family:"宋体";
 	}
 .logtcoh{
 	color:#fff000;
@@ -168,7 +167,6 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	margin-top:5%;
 	color:#403C3D;
 	font-weight:bold;
-	font-family:"微软雅黑";
 	text-align:center;
 	clear:both;
 	}	
@@ -200,7 +198,7 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	}
 .signuprt{
 	color:#3a3a3a;
-	font:14px/1 "宋体";
+	font-size:14px;
 	float:right;
 	margin-top:-35px;
 	}	
@@ -212,7 +210,7 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	text-decoration:none;
 	}
 .supo{
-	font:24px/1 "微软雅黑";
+	font-size:24px;
 	text-align:left;
 	color:#ff8a00;
 	padding:30px 0px 0px 70px;
@@ -220,10 +218,9 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 .sucon{
 	margin:70px auto 0px 260px;
 	color:#3a3a3a;
-	font:14px/1 "宋体";
+	font-size:14px;
 	}
 .findlist{
-	font:14px/1 "微软雅黑";
 	border-bottom:solid 2px #1CA873;
 	padding-bottom:10px;
 	width:350px;
@@ -244,7 +241,6 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	width:64px;
 	display:inline-block;
 	text-align:right;
-	font:14px/1 "宋体";
 	color:#252525;
 	}	
 .suinput{
@@ -252,7 +248,7 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	height:30px;
 	border:1px solid #e7e7e7;
 	border-radius:4px;
-	font:13px/30px "宋体";
+	line-height: 30px;
 	color:#8c8c8c;
 	margin:0px 0px 20px 10px;
 	padding-left:10px;
@@ -266,11 +262,11 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	text-decoration:none;
 	cursor:default;
 	padding:8px 5px;
-	font:12px/1 "宋体";
+	font-size:12px;
 	}
 .getcaptp{
 	color:#ff9c00;
-	font:12px/1 "宋体";
+	font-size:12px;
 	}
 .captpic{
 	vertical-align:middle;
@@ -278,7 +274,7 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	height:32px;
 	}	
 .changecapt{
-	font:12px/1 "宋体";
+	font-size:12px;
 	color:#8c8c8c;
 	margin-left:5px;
 	cursor:pointer;
@@ -306,7 +302,7 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	display:inline-block;
 	padding:10px 115px;
 	margin:30px 0px 0px 80px;
-	font:14px/1 "黑体";
+	font-size:14px;
 	cursor:pointer;
 	}
 .arrowfd{
@@ -358,11 +354,10 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 /*注册成功*/
 .suconbox{
 	margin:13% auto 0px 250px;
-	font:14px/1 "宋体";
 	color:#7c7c7c;
 	}
 .signsucs{
-	font:22px/1 "黑体";
+	font-size:22px;
 	color:#1cb177;
 	background: url(../images/alllogicon.png) no-repeat;
 	background-position:26px -39px;
@@ -370,7 +365,7 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	margin-top:50px;
 	}
 .refreshp{
-	font:14px/1 "宋体";
+	font-size:14px;
 	color:#7c7c7c;
 	margin:50px 0px 0px 135px;
 	}
@@ -389,7 +384,7 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	margin:0px 0px 30px 30px;
 	}	
 .immeactiva{
-	font:14px/1 "黑体";
+	font-size:14px;
 	color:#fff;
 	background:#ff9c00;
 	padding:8px 100px;
@@ -416,10 +411,10 @@ input.applifob[type="text"]:focus{line-height: normal; line-height: 38px\9;}
 	}
 .signfailure{
 	color:#ff0000;
-	font:22px/1 "黑体";
+	font-size:22px;
 	}
 .registfail{
-	font:14px/1 "宋体";
+	font-size:14px;
 	color:#7c7c7c;
 	margin-top:20px;
 	}
